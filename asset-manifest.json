@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.0ee45911.chunk.css",
-    "main.js": "/personal-website/static/js/main.c5b6ecb2.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.c5b6ecb2.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.43b0320d.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.43b0320d.js.map",
-    "static/js/2.d754eade.chunk.js": "/personal-website/static/js/2.d754eade.chunk.js",
-    "static/js/2.d754eade.chunk.js.map": "/personal-website/static/js/2.d754eade.chunk.js.map",
-    "static/js/3.8ede6c2a.chunk.js": "/personal-website/static/js/3.8ede6c2a.chunk.js",
-    "static/js/3.8ede6c2a.chunk.js.map": "/personal-website/static/js/3.8ede6c2a.chunk.js.map",
+    "main.css": "/personal-website/static/css/main.f40891fb.chunk.css",
+    "main.js": "/personal-website/static/js/main.7a690cdb.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.7a690cdb.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.ace90c5b.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.ace90c5b.js.map",
+    "static/js/2.86c649a1.chunk.js": "/personal-website/static/js/2.86c649a1.chunk.js",
+    "static/js/2.86c649a1.chunk.js.map": "/personal-website/static/js/2.86c649a1.chunk.js.map",
+    "static/js/3.29066882.chunk.js": "/personal-website/static/js/3.29066882.chunk.js",
+    "static/js/3.29066882.chunk.js.map": "/personal-website/static/js/3.29066882.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/main.0ee45911.chunk.css.map": "/personal-website/static/css/main.0ee45911.chunk.css.map",
-    "static/js/2.d754eade.chunk.js.LICENSE.txt": "/personal-website/static/js/2.d754eade.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/personal-website/static/media/bg.da4b1582.jpg"
+    "static/css/main.f40891fb.chunk.css.map": "/personal-website/static/css/main.f40891fb.chunk.css.map",
+    "static/js/2.86c649a1.chunk.js.LICENSE.txt": "/personal-website/static/js/2.86c649a1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/personal-website/static/media/Panton-BlackCaps.63054592.otf",
+    "static/media/main.module.css": "/personal-website/static/media/bg.da4b1582.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.43b0320d.js",
-    "static/js/2.d754eade.chunk.js",
-    "static/css/main.0ee45911.chunk.css",
-    "static/js/main.c5b6ecb2.chunk.js"
+    "static/js/runtime-main.ace90c5b.js",
+    "static/js/2.86c649a1.chunk.js",
+    "static/css/main.f40891fb.chunk.css",
+    "static/js/main.7a690cdb.chunk.js"
   ]
 }
