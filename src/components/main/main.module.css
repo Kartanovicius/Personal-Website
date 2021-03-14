@@ -1,0 +1,79 @@
+.background {
+    margin: 20px 20px 20px -7vh;
+    border-radius: 20px;
+    background: #171717 url(/src/img/bg.jpg) no-repeat fixed right;
+    background-clip: border-box;
+    z-index: 0;
+}
+
+.titleText h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0 0 -10px 0;
+}
+
+.titleText p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    margin: 18px 0 30px 0;
+    animation: seconds 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1.35s;
+    opacity: 0
+}
+
+@-webkit-keyframes seconds {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes seconds {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.App-header div {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+}
+
+.titleBox {
+    margin: 125px 55vw 0 calc(7vh + 90px);
+    text-align: left;
+}
+
+.permanent {
+    border-right: .05em solid;
+    animation: caret-p 1s steps(1) infinite;
+}
+
+.temporary {
+    border-right: .05em solid;
+    animation: caret-h2 1s steps(1) infinite;
+    animation-delay: 0.7s;
+    opacity: 1;
+}
+
+@keyframes caret-h2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes caret-p {
+    50% {
+        border-color: transparent;
+    }
+}

@@ -1,0 +1,17 @@
+nav {
+    background: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    margin: 20px 0 20px 0;
+    z-index: 1;
+}
+
+nav h1 {
+    position: relative;
+    top: 10vh;
+    left: 0;
+    white-space: nowrap;
+    font-family: Panton;
+    font-size: 48px;
+    color: #000;
+    transform: rotate(90deg);
+}
