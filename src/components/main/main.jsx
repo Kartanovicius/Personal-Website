@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './main.module.css'
+
 import './p-animation';
 import Email from "./email/email";
 

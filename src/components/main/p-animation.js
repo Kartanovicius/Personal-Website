@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded',function(event){
+document.addEventListener('DOMContentLoaded',function(){
     // array with texts to type in typewriter
-    var dataText = ["Creative solution." ,"I’m a student driven by web design and web programming. Interested in working on something awesome together."];
-    var j = 0;
+    const dataText = ["Creative solution." ,"I’m a student driven by web design and web programming. Interested in working on something awesome together."];
+    let j = 0;
     // type one text in the typwriter
     // keeps calling itself until the text is finished
     function typeWriter(text, i, fnCallback) {
@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded',function(event){
         if (i < (text.length)) {
             // add next character to h1
             if(j === 0){
-                document.querySelector("h2").innerHTML = text.substring(0, i + 1) + '<span class="temporary" aria-hidden="true"></span>';
+                document.querySelector("h2").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
             }
             else {
-                document.querySelector("p").innerHTML = text.substring(0, i + 1) + '<span class="permanent" aria-hidden="true"></span>';
+                document.querySelector("p").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
             }
             // wait for a while and call this function again for next character
             setTimeout(function() {

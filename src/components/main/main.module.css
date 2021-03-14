@@ -6,6 +6,11 @@
     z-index: 0;
 }
 
+.titleBox {
+    margin: 125px 55vw 0 calc(7vh + 90px);
+    text-align: left;
+}
+
 .titleText h2 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 42px;
@@ -19,8 +24,8 @@
     margin: 18px 0 30px 0;
     animation: seconds 1.0s forwards;
     animation-iteration-count: 1;
-    animation-delay: 1.35s;
-    opacity: 0
+    animation-delay: 1.15s;
+    opacity: 0;
 }
 
 @-webkit-keyframes seconds {
@@ -41,22 +46,18 @@
     }
 }
 
-.App-header div {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 14px;
-}
-
-.titleBox {
-    margin: 125px 55vw 0 calc(7vh + 90px);
-    text-align: left;
-}
-
-.permanent {
+p span {
     border-right: .05em solid;
     animation: caret-p 1s steps(1) infinite;
 }
 
-.temporary {
+@keyframes caret-p {
+    50% {
+        border-color: transparent;
+    }
+}
+
+h2 span{
     border-right: .05em solid;
     animation: caret-h2 1s steps(1) infinite;
     animation-delay: 0.7s;
@@ -69,11 +70,5 @@
     }
     100% {
         opacity: 0;
-    }
-}
-
-@keyframes caret-p {
-    50% {
-        border-color: transparent;
     }
 }
