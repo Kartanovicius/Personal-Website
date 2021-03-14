@@ -12,9 +12,13 @@ function App() {
                 </nav>
                 <div className="background">
                     <div className="title">
-                        <h2>Creative solution.</h2>
-                        <p>.</p>
-                        <div className="button">Write me a email</div>
+                        <div className="text">
+                            <h2>Creative solution.</h2>
+                            <p>.</p>
+                        </div>
+                        <div className="button">
+                            <p>Write me a email</p>
+                        </div>
                     </div>
                 </div>
             </header>

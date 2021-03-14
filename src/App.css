@@ -50,12 +50,12 @@ nav h1 {
     font-weight: 400;
 }
 
-.App-header p {
+.text p {
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     animation: seconds 1.0s forwards;
     animation-iteration-count: 1;
-    animation-delay: 2.1s;
+    animation-delay: 1.35s;
     opacity: 0
 }
 
@@ -98,7 +98,25 @@ nav h1 {
     animation-delay: 0.7s;
     opacity: 1;
 }
-
+.button {
+    width: 10rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.button p {
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 @keyframes caret-h2 {
     0% {
         opacity: 0;
