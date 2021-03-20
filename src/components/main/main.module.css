@@ -1,21 +1,21 @@
 .background {
-    margin: 20px 20px 20px -7vh;
+    margin: 20px 20px 20px 0;
     border-radius: 20px;
-    background: #171717 url(/src/img/bg.jpg) no-repeat fixed right;
-    background-clip: border-box;
+    background: #171717 url(/src/img/bg.jpg) no-repeat fixed;
+    background-position: right bottom;
     z-index: 0;
 }
 
 .titleBox {
-    margin: 125px 55vw 0 calc(7vh + 90px);
+    position: relative;
+    margin: 125px 52vw 0 calc(7vh + 90px);
     text-align: left;
 }
 
 .titleText h2 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 3vw;
-    max-font-size: 50px;
-    min-font-size: 40px;
+    white-space: nowrap;
+    font-size: 48px;
     font-weight: 400;
     margin: 0 0 -10px 0;
 }
@@ -23,11 +23,25 @@
 .titleText p {
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
-    margin: 18px 0 30px 0;
+    line-height: 150%;
+    margin: 18px 0 50px 0;
     animation: seconds 1.0s forwards;
     animation-iteration-count: 1;
-    animation-delay: 1.15s;
+    animation-delay: 1.7s;
     opacity: 0;
+}
+
+.button a {
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
 }
 
 @-webkit-keyframes seconds {
@@ -59,7 +73,7 @@ p span {
     }
 }
 
-h2 span{
+h2 span {
     border-right: .05em solid;
     animation: caret-h2 1s steps(1) infinite;
     animation-delay: 0.7s;
@@ -72,5 +86,33 @@ h2 span{
     }
     100% {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 1269px) {
+    .titleBox {
+        margin: 0 5vw 0 5vw;
+        text-align: left;
+    }
+
+    .background {
+        background: #171717;
+    }
+
+    .titleText h2 {
+        font-size: 68px;
+        margin: 30px 0 0 0;
+        white-space: normal;
+        line-height: 132%;
+    }
+
+    .titleText p {
+        font-size: 24px;
+        margin: 48px 0 80px 0;
+        line-height: 171.2%;
+    }
+
+    .button a{
+        font-size: 24px;
     }
 }

@@ -6,13 +6,17 @@ document.addEventListener('DOMContentLoaded',function(){
         if (i < (text.length)) {
             if(j === 0){
                 document.querySelector("h2").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+                setTimeout(function() {
+                    typeWriter(text, i + 1, fnCallback)
+                }, 50);
             }
             else {
-                document.querySelector("p").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+                document.querySelector(".introduction").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+                setTimeout(function() {
+                    typeWriter(text, i + 1, fnCallback)
+                }, 30);
             }
-            setTimeout(function() {
-                typeWriter(text, i + 1, fnCallback)
-            }, 30);
+
         }
         else if (typeof fnCallback == 'function') {
             if (j === 0) {

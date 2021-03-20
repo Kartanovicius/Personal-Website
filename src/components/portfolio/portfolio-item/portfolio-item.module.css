@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    margin: 36px 0 8px 20px;
+    margin: 20px 0 8px 20px;
 }
 
 .item p {
@@ -30,8 +30,7 @@ img {
 .content  {
     position: absolute;
     top: 0px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(23,23,23, 1);
     color: #f1f1f1;
     text-align: left;
     width: 100%;
@@ -40,5 +39,26 @@ img {
 }
 
 .content:hover  {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 1239px) {
+    .item {
+        height: calc((100vh / 6) - (10px * 6));
+        min-height: 100px;
+        margin: 0 20px 0 20px;
+        border-radius: 15px;
+    }
+    .content    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item h3 {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        margin: 0px 0 8px 20px;
+    }
 }

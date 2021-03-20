@@ -1,10 +1,12 @@
 nav {
-    position: sticky;
+    position: relative;
     left: 0;
     background: #FFFFFF;
     border-radius: 0 20px 20px 0;
     margin: 20px 0 20px 0;
     z-index: 1;
+    width: 100%;
+    transition: width 0.3s;
 }
 
 .menu {
@@ -12,14 +14,73 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
-.menu h1 {
+.nameSurname{
     top: 10vh;
     left: 0;
     white-space: nowrap;
     font-family: Panton;
     font-size: 48px;
     color: #000;
+
     transform: rotate(90deg);
 }
+
+.menu p   {
+    color: #000000;
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+}
+
+.contact    {
+}
+
+.navigation   {
+    font-size: 24px;
+}
+nav:hover   {
+    width: 280px;
+}
+
+nav:hover .nameSurname  {
+    white-space: normal;
+    font-size: 25px;
+    transform: rotate(0deg);
+}
+
+nav:hover .menu  {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    pointer-events: auto;
+
+}
+
+.svgConteiner   {
+    display: flex;
+    flex-direction: column;
+}
+
+.svg {
+    margin: 1vh;
+    height: 24px;
+    width: 24px;
+}
+
+.hoverItem  {
+    display: none;
+}
+
+nav:hover .hoverItem  {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+

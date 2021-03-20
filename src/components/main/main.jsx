@@ -2,7 +2,6 @@ import React from 'react';
 import style from './main.module.css'
 
 import './p-animation';
-import Email from "./email/email";
 
 const Main = () => {
     return (
@@ -10,9 +9,11 @@ const Main = () => {
             <div className={style.titleBox}>
                 <div className={style.titleText}>
                     <h2>Creative solution.</h2>
-                    <p>.</p>
+                    <p className="introduction">.</p>
                 </div>
-                <Email/>
+                <div className={style.button}>
+                    <a href="mailto:donatas.ka@gmail.com?subject=Mail from Client">Write me a email</a>
+                </div>
             </div>
         </div>
     );

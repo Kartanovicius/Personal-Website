@@ -14,7 +14,7 @@ function App() {
                     <Main/>
                 </header>
             </section>
-            <section>
+            <section className="portfolio">
                 <Portfolio/>
             </section>
         </div>
